@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://harrypan666.github.io</id>
     <title>Blog-记录点滴</title>
-    <updated>2021-04-24T19:22:55.198Z</updated>
+    <updated>2021-04-24T19:23:37.578Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://harrypan666.github.io"/>
     <link rel="self" href="https://harrypan666.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://harrypan666.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog-记录点滴</rights>
     <entry>
-        <title type="html"><![CDATA[华东交通大学的上网方案，学校应该耗子尾汁]]></title>
+        <title type="html"><![CDATA[华东交通大学的上网方案]]></title>
         <id>https://harrypan666.github.io/post/xiaoyuanwang/</id>
         <link href="https://harrypan666.github.io/post/xiaoyuanwang/">
         </link>
