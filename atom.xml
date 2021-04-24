@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://harrypan666.github.io</id>
+    <title>Blog-记录点滴</title>
+    <updated>2021-04-24T19:55:26.617Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://harrypan666.github.io"/>
+    <link rel="self" href="https://harrypan666.github.io/atom.xml"/>
+    <subtitle>极致效用</subtitle>
+    <logo>https://harrypan666.github.io/images/avatar.png</logo>
+    <icon>https://harrypan666.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Blog-记录点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[华东交通大学的上网方案]]></title>
+        <id>https://harrypan666.github.io/post/xiaoyuanwang/</id>
+        <link href="https://harrypan666.github.io/post/xiaoyuanwang/">
+        </link>
+        <updated>2021-04-24T16:41:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>😀众所周知校园网是运营商兵家必争之地，我有理由怀疑学校与运营商勾结起来，以网络安全为借口来宰我们。以下是我的拙见</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😀众所周知校园网是运营商兵家必争之地，我有理由怀疑学校与运营商勾结起来，以网络安全为借口来宰我们。以下是我的拙见</p>
+<!-- more -->
+<pre><code>凭什么有理由怀疑？
+</code></pre>
+<p>社会上的宽带办理没有必须要一人一号，如果从安全性方面考虑，社会上的人对网络安全的威胁显然比我们大学狗要高得多，为什么不让每个人都办理宽带呢？另一个方面，如果出现了网络安全问题，锁定到社区住户的难度难道不比锁定我们大吗？在学校你只要通过学校网络，学校当然清楚你发送了什么信息，即使是加密的，也能看清楚信息的“轮廓”，只不过没有权力也懒得看咱们有没有发啥不得了的东西，因为这样看不过来，但是一旦出了问题，”FBI警告“。这样看来无非就是多赚钱咯，更可气的是拿钱不办事，ecjtu校园网问题迟迟不解决，宽带上门居然要交钱，出了问题居然要自己解决，因为他们居然不比我们懂多少🤡</p>
+<!-- more -->
+<pre><code>调教方法
+    这种方法理论上可以使所有设备访问互联网（设备最好有网线接口），共享带宽。
+    可以让两个寝室很多设备共用一个账号！😜白嫖万岁！
+</code></pre>
+<!-- more -->
+<pre><code>废话少说我们开始吧😀
+    你需要若干网线，一个路由器（尽量选择接口多一点的），一双灵巧的双手和聪明的脑子 
+</code></pre>
+<p><img src="https://harrypan666.github.io/post-images/1619285728623.jpg" alt="" loading="lazy"><br>
+<img src="https://harrypan666.github.io/post-images/1619285736422.jpg" alt="" loading="lazy"><br>
+<img src="https://harrypan666.github.io/post-images/1619285740506.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<pre><code>先介绍硬件（路由器）：
+</code></pre>
+<p>这家伙是让校园网和你的设备建立联系的东西，他会给每个设备分配ip（发上网身份证），这样就可以上网了，将校园网口和路由器的wan口用网线连接起来（图中右边单独的黄色接口），这样校园网就进入你的路由器了。</p>
+<!-- more -->
+<pre><code>第二步
+</code></pre>
+<p>将图中四个中任一一个<strong>lan口</strong>（蓝色接口）用网线接驳到设备上（最好还是用电脑比较好），可能会弹出窗口，我使用的是tplink路由器，可以使用http://tplogin.cn/    访问到路由器（其他路由器可以百度一下怎么访问管理界面）。完了就随便设置咯。主要就是设置无线（wifi）的部分，取个名字，设个密码，注意：请记住管理员密码，忘了就重置路由器就好了，就是费点时间。<br>
+<img src="https://harrypan666.github.io/post-images/1619286304045.png" alt="" loading="lazy"><br>
+<img src="https://harrypan666.github.io/post-images/1619286339977.png" alt="" loading="lazy"><br>
+设置好路由器是不是惊讶为什么没有网络访问？</p>
+<!-- more -->
+<pre><code>第三步
+</code></pre>
+<p>对啊，我们没有登录校园网宽带的账号，<br>
+浏览器搜素栏输入172.16.2.100进入华东交通大学校园网界面<br>
+<img src="https://harrypan666.github.io/post-images/1619286723786.png" alt="" loading="lazy"><br>
+点击红色” 自助服务平台（绑定运营商帐号）“<br>
+<img src="https://harrypan666.github.io/post-images/1619286865636.png" alt="" loading="lazy"><br>
+输入账号登录到校园网后台，<br>
+<img src="https://harrypan666.github.io/post-images/1619286953963.png" alt="" loading="lazy"><br>
+点击上方服务按钮<br>
+<img src="https://harrypan666.github.io/post-images/1619287038077.png" alt="" loading="lazy"><br>
+绑定运营商账号（已经绑过了有效的就无所谓了）<br>
+<img src="https://harrypan666.github.io/post-images/1619287126104.png" alt="" loading="lazy"><br>
+点击提交回到172.16.2.100的那个界面，输入账号，显示认证成功就ok了😊</p>
+<!-- more -->
+<pre><code>最后
+</code></pre>
+<p>呐，这样就好了，熟练了就很快，现在你已经拥有了一台已经设置好的路由器了，你可以在路由器界面管理所有连接到路由器的设备，还可以在校园网后台管理界面看到路由器的mac地址并且可以做下线操作（例如网络需要重新连接，后文会提到部分导致校园网账号掉线的原因）<br>
+<img src="https://harrypan666.github.io/post-images/1619287536605.png" alt="" loading="lazy"></p>
+<!-- more -->
+<pre><code>共享
+</code></pre>
+<p>刚刚我们只让一台电脑访问互联网，如何让许多电脑也访问呢？<br>
+买一些长长的网线，像连接第一个电脑一样，将<strong>lan口</strong>（蓝色接口）和设备相连，这时候<strong>不用</strong>再登录啊啥的，<strong>即插即用</strong>，四个lan口意味着四个设备都可以（不够就买交换机嘛😄）<br>
+手机的话出门连接ecjtu，回寝室可以连路由器，<strong>不过值得注意的是一个路由器能且仅能连接一台设备（苹果的mac、iPad除外）</strong> 一旦wifi连接两台设备，就会掉线，得重新在172.16.2.100登录了，有时候还得进入管理后台http://172.16.2.101:8080/Self/login/ 很讨厌，最好不要尝试这么做。<br>
+理论上啊，这只会占用宽带账号一个mac地址，所以我们可以和另一个寝室共享👍<br>
+<img src="https://harrypan666.github.io/post-images/1619289443147.png" alt="" loading="lazy"></p>
+<!-- more -->
+<p>其实搞这些东西啊，一个是为了省钱，另一个呢也是增进同学感情的好机会，重要的是和同学沟通寻找最佳的办法，多出来的钱也不小了，可以干一顿火锅，岂不美哉！😍</p>
+<!-- more -->
+<pre><code>一些小tips
+</code></pre>
+<p>1.推荐买二手的路由器，tplink最合适了，毕竟人家做这个行业很久了。<br>
+2.只要是能连接路由器的设备都可以访问路由器后台，以及校园网后台进行管理。<br>
+3.因为是共享嘛，如果大家都在下小电影😋（一般不会有这种极端情况），带宽不够用啊，势必会影响到其他人，我们可以小小的做个限速<br>
+<img src="https://harrypan666.github.io/post-images/1619287997219.png" alt="" loading="lazy"><br>
+<img src="https://harrypan666.github.io/post-images/1619288026261.png" alt="" loading="lazy"><br>
+输入下载上限，如果是50兆带宽可以每个人限制5367KB（留1MB给剩下的人，注意这不是平均分配，这只是限制你们中下载小电影的那个不要“太过分”）100兆就11264KB。这种极端情况还是很少，谁没事下那么多东西啊。。。😅</p>
+<!-- more -->
+<pre><code>尾声
+</code></pre>
+<!-- more -->
+<p>总的来说还是有点小难度，主要是一些关系我讲得不清楚，理解起来有困难。<br>
+如果你也不想被学校割韭菜，为什么不和我一起来交流♂交流呢？<br>
+可以加我的qq，也可以发邮件给我<br>
+2051691420<br>
+harrypan520@gmail.com</p>
+<!-- more -->
+<pre><code>题外话
+</code></pre>
+<p>终于，开始了写博客，还挺不错的😊</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://harrypan666.github.io/post/hello-gridea/</id>
+        <link href="https://harrypan666.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
